@@ -1,0 +1,4 @@
+{"_fixture":"simulated","hook_event_name":"sessionStart","session_id":"sim-sess-nousage-001","conversation_id":"sim-sess-nousage-001","composer_mode":"agent","workspace_roots":[],"model":"old-build-simulated"}
+{"_fixture":"simulated","hook_event_name":"preToolUse","conversation_id":"sim-sess-nousage-001","generation_id":"sim-gen-nu-001","tool_name":"Read","tool_use_id":"nu-a","workspace_roots":[]}
+{"_fixture":"simulated","hook_event_name":"postToolUse","conversation_id":"sim-sess-nousage-001","generation_id":"sim-gen-nu-001","tool_name":"Read","tool_use_id":"nu-a","duration":50,"workspace_roots":[]}
+{"_fixture":"simulated","hook_event_name":"stop","conversation_id":"sim-sess-nousage-001","generation_id":"sim-gen-nu-001","status":"completed","loop_count":0,"workspace_roots":[]}

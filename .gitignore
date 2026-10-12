@@ -1,0 +1,11 @@
+node_modules/
+dist/
+packages/app/dist/
+packages/dashboard/dist/
+.trace/
+*.log
+.DS_Store
+*.tsbuildinfo
+
+.cursor/
+.codegraph/

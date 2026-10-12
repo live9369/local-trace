@@ -1,0 +1,11 @@
+{
+  "name": "cursor-local-trace",
+  "version": "0.1.0",
+  "description": "本地 Agent 观测：Skill 触发 + Hooks 埋点 + .trace 看板",
+  "author": {
+    "name": "Cursor Local Trace"
+  },
+  "keywords": ["hooks", "observability", "trace", "local", "skill"],
+  "hooks": "./hooks/hooks.json",
+  "skills": "./skills/"
+}

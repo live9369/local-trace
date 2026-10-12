@@ -1,0 +1,21 @@
+{
+  "name": "cursor-local-trace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local observability for Cursor Agent — hooks, .trace storage, and dashboard",
+  "workspaces": [
+    "packages/app",
+    "packages/dashboard"
+  ],
+  "scripts": {
+    "build": "npm run build -w @local-trace/app && npm run build -w @local-trace/dashboard && npm run copy-web -w @local-trace/app",
+    "test": "npm run test -w @local-trace/app",
+    "clt": "node packages/app/dist/cli.mjs",
+    "dev:dashboard": "npm run dev -w @local-trace/dashboard",
+    "pack:plugin": "npm run build && node packages/app/dist/cli.mjs pack-plugin"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
